@@ -1,0 +1,68 @@
+2025-03-27 03:17:06,839 - __main__ - INFO - Initializing confidence analyzer for model at ../finetuned_model
+2025-03-27 03:17:06,839 - __main__ - INFO - Using device: cuda
+2025-03-27 03:17:06,839 - __main__ - INFO - Loading verified model and tokenizer...
+2025-03-27 03:17:10,840 - __main__ - INFO - Successfully loaded verified model with wrapper
+2025-03-27 03:17:10,841 - __main__ - INFO - Loading base model from Qwen/Qwen2.5-1.5B-Instruct...
+2025-03-27 03:17:14,115 - __main__ - INFO - Analyzing confidence scores for 20 truth/falsehood pairs...
+2025-03-27 03:19:39,969 - __main__ - INFO - Initializing confidence analyzer for model at ../finetuned_model
+2025-03-27 03:19:39,970 - __main__ - INFO - Using device: cuda
+2025-03-27 03:19:39,970 - __main__ - INFO - Loading verified model and tokenizer...
+2025-03-27 03:19:43,829 - __main__ - INFO - Successfully loaded verified model with wrapper
+2025-03-27 03:19:43,830 - __main__ - INFO - Loading base model from Qwen/Qwen2.5-1.5B-Instruct...
+2025-03-27 03:19:47,320 - __main__ - INFO - Analyzing confidence scores for 20 truth/falsehood pairs...
+2025-03-27 03:19:48,987 - __main__ - INFO - Average confidence for true statements: 0.5518
+2025-03-27 03:19:48,987 - __main__ - INFO - Average confidence for false statements: 0.5506
+2025-03-27 03:19:48,987 - __main__ - INFO - Average confidence difference: 0.0012
+2025-03-27 03:19:48,988 - __main__ - INFO - Paired t-test: t=0.6092, p=0.549616
+2025-03-27 03:24:05,190 - __main__ - INFO - Initializing confidence analyzer for model at ../finetuned_model
+2025-03-27 03:24:05,190 - __main__ - INFO - Using device: cuda
+2025-03-27 03:24:05,190 - __main__ - INFO - Loading verified model and tokenizer...
+2025-03-27 03:24:08,939 - __main__ - INFO - Successfully loaded verified model with wrapper
+2025-03-27 03:24:08,939 - __main__ - INFO - Loading base model from Qwen/Qwen2.5-1.5B-Instruct...
+2025-03-27 03:24:12,320 - __main__ - INFO - Analyzing confidence scores for 20 truth/falsehood pairs...
+2025-03-27 03:24:14,017 - __main__ - INFO - Average confidence for true statements: 0.5529
+2025-03-27 03:24:14,018 - __main__ - INFO - Average confidence for false statements: 0.5508
+2025-03-27 03:24:14,018 - __main__ - INFO - Average confidence difference: 0.0021
+2025-03-27 03:24:14,019 - __main__ - INFO - Paired t-test: t=0.9376, p=0.360230
+2025-03-27 03:25:09,642 - __main__ - INFO - Initializing confidence analyzer for model at ../finetuned_model
+2025-03-27 03:25:09,642 - __main__ - INFO - Using device: cuda
+2025-03-27 03:25:09,642 - __main__ - INFO - Loading verified model and tokenizer...
+2025-03-27 03:25:13,432 - __main__ - INFO - Successfully loaded verified model with wrapper
+2025-03-27 03:25:13,432 - __main__ - INFO - Loading base model from Qwen/Qwen2.5-1.5B-Instruct...
+2025-03-27 03:25:16,865 - __main__ - INFO - Analyzing confidence scores for 20 truth/falsehood pairs...
+2025-03-27 03:25:18,551 - __main__ - INFO - Average confidence for true statements: 0.5567
+2025-03-27 03:25:18,551 - __main__ - INFO - Average confidence for false statements: 0.5538
+2025-03-27 03:25:18,551 - __main__ - INFO - Average confidence difference: 0.0029
+2025-03-27 03:25:18,552 - __main__ - INFO - Paired t-test: t=1.0384, p=0.312118
+2025-03-27 03:25:22,520 - __main__ - INFO - Analyzing confidence calibration for 40 statements...
+2025-03-27 03:25:23,904 - __main__ - INFO - Expected Calibration Error (ECE): 0.0530
+2025-03-27 03:25:23,904 - __main__ - INFO - ROC AUC: 0.5100
+2025-03-27 03:25:23,904 - __main__ - INFO - PR AUC: 0.5446
+2025-03-27 03:25:25,437 - __main__ - INFO - Analyzing confidence over generation time for 5 prompts...
+2025-03-27 03:25:25,438 - __main__ - INFO - Processing prompt 1: 'The capital of France is'
+2025-03-27 03:25:26,157 - __main__ - INFO - Processing prompt 2: 'The tallest mountain in the world is'
+2025-03-27 03:25:26,863 - __main__ - INFO - Processing prompt 3: 'The number of planets in our solar system is'
+2025-03-27 03:25:27,573 - __main__ - INFO - Processing prompt 4: 'The chemical symbol for gold is'
+2025-03-27 03:25:28,275 - __main__ - INFO - Processing prompt 5: 'The speed of light is approximately'
+2025-03-27 03:25:31,586 - __main__ - INFO - Report saved to ./confidence_analysis/confidence_analysis_report.md
+2025-03-27 15:49:31,019 - __main__ - INFO - Initializing confidence analyzer for model at ../model
+2025-03-27 15:49:31,020 - __main__ - INFO - Using device: cuda
+2025-03-27 15:49:31,020 - __main__ - INFO - Loading verified model and tokenizer...
+2025-03-27 15:49:46,930 - __main__ - INFO - Successfully loaded verified model with wrapper
+2025-03-27 15:49:46,931 - __main__ - INFO - Loading base model from Qwen/Qwen2.5-7B-Instruct...
+2025-03-27 15:50:03,844 - __main__ - INFO - Analyzing confidence scores for 20 truth/falsehood pairs...
+2025-03-27 15:50:05,491 - __main__ - INFO - Average confidence for true statements: 0.5726
+2025-03-27 15:50:05,491 - __main__ - INFO - Average confidence for false statements: 0.5739
+2025-03-27 15:50:05,491 - __main__ - INFO - Average confidence difference: -0.0013
+2025-03-27 15:50:05,493 - __main__ - INFO - Paired t-test: t=-0.4188, p=0.680082
+2025-03-27 15:50:09,360 - __main__ - INFO - Analyzing confidence calibration for 40 statements...
+2025-03-27 15:50:10,737 - __main__ - INFO - Expected Calibration Error (ECE): 0.0872
+2025-03-27 15:50:10,737 - __main__ - INFO - ROC AUC: 0.6875
+2025-03-27 15:50:10,737 - __main__ - INFO - PR AUC: 0.6760
+2025-03-27 15:50:12,378 - __main__ - INFO - Analyzing confidence over generation time for 5 prompts...
+2025-03-27 15:50:12,378 - __main__ - INFO - Processing prompt 1: 'The capital of France is'
+2025-03-27 15:50:13,166 - __main__ - INFO - Processing prompt 2: 'The tallest mountain in the world is'
+2025-03-27 15:50:13,958 - __main__ - INFO - Processing prompt 3: 'The number of planets in our solar system is'
+2025-03-27 15:50:14,778 - __main__ - INFO - Processing prompt 4: 'The chemical symbol for gold is'
+2025-03-27 15:50:15,560 - __main__ - INFO - Processing prompt 5: 'The speed of light is approximately'
+2025-03-27 15:50:19,371 - __main__ - INFO - Report saved to ./confidence_analysis/confidence_analysis_report.md

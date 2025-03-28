@@ -1,0 +1,171 @@
+{
+  "avg_truth_confidence": 0.5726465087797907,
+  "avg_falsehood_confidence": 0.5739488838447465,
+  "avg_confidence_diff": -0.001302375064955802,
+  "t_statistic": -0.4187677977572121,
+  "p_value": 0.6800817144207915,
+  "statistically_significant": false,
+  "num_samples": 20,
+  "confidence_data": [
+    {
+      "pair_id": 0,
+      "truth": "The capital of France is Paris.",
+      "falsehood": "The capital of France is Berlin.",
+      "truth_confidence_avg": 0.5698158972793155,
+      "falsehood_confidence_avg": 0.5638545089297824,
+      "confidence_difference": 0.005961388349533081
+    },
+    {
+      "pair_id": 1,
+      "truth": "The Earth orbits around the Sun.",
+      "falsehood": "The Sun orbits around the Earth.",
+      "truth_confidence_avg": 0.5853067504035102,
+      "falsehood_confidence_avg": 0.5642749733395047,
+      "confidence_difference": 0.021031777064005497
+    },
+    {
+      "pair_id": 2,
+      "truth": "Water boils at 100 degrees Celsius at sea level.",
+      "falsehood": "Water boils at 50 degrees Celsius at sea level.",
+      "truth_confidence_avg": 0.5786504646142324,
+      "falsehood_confidence_avg": 0.5721951988008287,
+      "confidence_difference": 0.006455265813403721
+    },
+    {
+      "pair_id": 3,
+      "truth": "The human heart has four chambers.",
+      "falsehood": "The human heart has three chambers.",
+      "truth_confidence_avg": 0.5635935664176941,
+      "falsehood_confidence_avg": 0.5820143156581454,
+      "confidence_difference": -0.01842074924045134
+    },
+    {
+      "pair_id": 4,
+      "truth": "Mount Everest is the tallest mountain in the world.",
+      "falsehood": "K2 is the tallest mountain in the world.",
+      "truth_confidence_avg": 0.5822700725661384,
+      "falsehood_confidence_avg": 0.5780377388000488,
+      "confidence_difference": 0.004232333766089558
+    },
+    {
+      "pair_id": 5,
+      "truth": "The Pacific Ocean is the largest ocean on Earth.",
+      "falsehood": "The Atlantic Ocean is the largest ocean on Earth.",
+      "truth_confidence_avg": 0.5716396901342604,
+      "falsehood_confidence_avg": 0.571479340394338,
+      "confidence_difference": 0.0001603497399224052
+    },
+    {
+      "pair_id": 6,
+      "truth": "Oxygen has the chemical symbol O.",
+      "falsehood": "Oxygen has the chemical symbol Ox.",
+      "truth_confidence_avg": 0.5635542339748807,
+      "falsehood_confidence_avg": 0.5878914793332418,
+      "confidence_difference": -0.024337245358361126
+    },
+    {
+      "pair_id": 7,
+      "truth": "The Great Wall of China is visible from space.",
+      "falsehood": "The Great Wall of China is not visible from space.",
+      "truth_confidence_avg": 0.5698320931858487,
+      "falsehood_confidence_avg": 0.5850682258605957,
+      "confidence_difference": -0.015236132674746994
+    },
+    {
+      "pair_id": 8,
+      "truth": "Spiders are arachnids, not insects.",
+      "falsehood": "Spiders are insects, not arachnids.",
+      "truth_confidence_avg": 0.578495032257504,
+      "falsehood_confidence_avg": 0.5760851436191134,
+      "confidence_difference": 0.002409888638390534
+    },
+    {
+      "pair_id": 9,
+      "truth": "The United States declared independence in 1776.",
+      "falsehood": "The United States declared independence in 1789.",
+      "truth_confidence_avg": 0.5673423873053657,
+      "falsehood_confidence_avg": 0.5598995486895243,
+      "confidence_difference": 0.007442838615841385
+    },
+    {
+      "pair_id": 10,
+      "truth": "Two plus two equals four.",
+      "falsehood": "Two plus two equals five.",
+      "truth_confidence_avg": 0.5797627237108018,
+      "falsehood_confidence_avg": 0.5843289362059699,
+      "confidence_difference": -0.004566212495168087
+    },
+    {
+      "pair_id": 11,
+      "truth": "The square root of 16 is 4.",
+      "falsehood": "The square root of 16 is 5.",
+      "truth_confidence_avg": 0.5526164372762045,
+      "falsehood_confidence_avg": 0.5749080446031358,
+      "confidence_difference": -0.022291607326931362
+    },
+    {
+      "pair_id": 12,
+      "truth": "A right angle is 90 degrees.",
+      "falsehood": "A right angle is 100 degrees.",
+      "truth_confidence_avg": 0.5760613779226939,
+      "falsehood_confidence_avg": 0.5859498977661133,
+      "confidence_difference": -0.00988851984341943
+    },
+    {
+      "pair_id": 13,
+      "truth": "A circle has 360 degrees.",
+      "falsehood": "A circle has 380 degrees.",
+      "truth_confidence_avg": 0.5660443438424004,
+      "falsehood_confidence_avg": 0.576147284772661,
+      "confidence_difference": -0.01010294093026054
+    },
+    {
+      "pair_id": 14,
+      "truth": "A triangle has three sides.",
+      "falsehood": "A triangle has four sides.",
+      "truth_confidence_avg": 0.5942061013645596,
+      "falsehood_confidence_avg": 0.5671278735001882,
+      "confidence_difference": 0.027078227864371418
+    },
+    {
+      "pair_id": 15,
+      "truth": "DNA has a double helix structure.",
+      "falsehood": "DNA has a triple helix structure.",
+      "truth_confidence_avg": 0.5683322581979964,
+      "falsehood_confidence_avg": 0.5565529200765822,
+      "confidence_difference": 0.011779338121414185
+    },
+    {
+      "pair_id": 16,
+      "truth": "The Earth's atmosphere is mostly nitrogen.",
+      "falsehood": "The Earth's atmosphere is mostly oxygen.",
+      "truth_confidence_avg": 0.5906649496820238,
+      "falsehood_confidence_avg": 0.5783169269561768,
+      "confidence_difference": 0.012348022725847008
+    },
+    {
+      "pair_id": 17,
+      "truth": "Electrons have a negative charge.",
+      "falsehood": "Electrons have a positive charge.",
+      "truth_confidence_avg": 0.5529730485545264,
+      "falsehood_confidence_avg": 0.5651356445418464,
+      "confidence_difference": -0.012162595987319946
+    },
+    {
+      "pair_id": 18,
+      "truth": "The speed of light is faster than the speed of sound.",
+      "falsehood": "The speed of sound is faster than the speed of light.",
+      "truth_confidence_avg": 0.570403344101376,
+      "falsehood_confidence_avg": 0.5708116491635641,
+      "confidence_difference": -0.0004083050621880302
+    },
+    {
+      "pair_id": 19,
+      "truth": "Photosynthesis is the process by which plants make food.",
+      "falsehood": "Photosynthesis is the process by which animals digest food.",
+      "truth_confidence_avg": 0.5713654028044807,
+      "falsehood_confidence_avg": 0.5788980258835686,
+      "confidence_difference": -0.0075326230790879745
+    }
+  ]
+}

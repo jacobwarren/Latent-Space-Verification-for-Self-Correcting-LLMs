@@ -1,0 +1,91 @@
+2025-03-26 22:28:56,902 - __main__ - INFO - Initializing analyzer with base model: Qwen/Qwen2.5-1.5B-Instruct
+2025-03-26 22:28:56,902 - __main__ - INFO - Verified model path: ../finetuned_model
+2025-03-26 22:28:56,902 - __main__ - INFO - Device: cuda
+2025-03-26 22:28:56,903 - __main__ - INFO - Loading tokenizer...
+2025-03-26 22:28:57,407 - __main__ - INFO - Loading base model...
+2025-03-26 22:29:02,879 - __main__ - INFO - Loading verified model...
+2025-03-26 22:29:02,881 - __main__ - WARNING - Error loading with wrapper: No module named 'latent_verification'. Trying standard loading...
+2025-03-26 22:29:04,615 - __main__ - INFO - Loaded verified model with standard loading
+2025-03-26 22:29:04,615 - __main__ - INFO - Analyzing hidden state trajectories...
+2025-03-26 22:29:04,615 - __main__ - INFO - Processing prompt: The capital of France is Paris.
+2025-03-26 22:29:04,898 - __main__ - INFO - Processing prompt: The capital of France is Berlin.
+2025-03-26 22:29:04,953 - __main__ - INFO - Processing prompt: The Earth orbits around the Sun.
+2025-03-26 22:29:05,020 - __main__ - INFO - Processing prompt: The Sun orbits around the Earth.
+2025-03-26 22:29:05,077 - __main__ - INFO - Processing prompt: Water boils at 100 degrees Celsius at sea level.
+2025-03-26 22:29:05,138 - __main__ - INFO - Processing prompt: Water boils at 50 degrees Celsius at sea level.
+2025-03-26 22:29:07,646 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-03-26 22:29:18,849 - __main__ - INFO - Analyzing truth/falsehood divergence...
+2025-03-26 22:29:18,850 - __main__ - INFO - Processing pair 1: 'The capital of France is Paris.' vs 'The capital of France is Berlin.'
+2025-03-26 22:29:18,963 - __main__ - INFO - Processing pair 2: 'The Earth orbits around the Sun.' vs 'The Sun orbits around the Earth.'
+2025-03-26 22:29:19,070 - __main__ - INFO - Processing pair 3: 'Water boils at 100 degrees Celsius at sea level.' vs 'Water boils at 50 degrees Celsius at sea level.'
+2025-03-26 22:29:19,179 - __main__ - INFO - Processing pair 4: 'The human heart has four chambers.' vs 'The human heart has three chambers.'
+2025-03-26 22:29:19,288 - __main__ - INFO - Processing pair 5: 'Two plus two equals four.' vs 'Two plus two equals five.'
+2025-03-26 22:29:19,395 - __main__ - INFO - Processing pair 6: 'The square root of 16 is 4.' vs 'The square root of 16 is 5.'
+2025-03-26 22:29:19,500 - __main__ - INFO - Processing pair 7: 'All mammals are animals. Dogs are mammals. Therefore, dogs are animals.' vs 'All mammals are animals. Dogs are mammals. Therefore, dogs are plants.'
+2025-03-26 22:29:21,223 - __main__ - INFO - Analyzing token probability flow...
+2025-03-26 22:29:21,223 - __main__ - INFO - Processing prompt: If all A are B, and all B are C, then all A are C. All dogs are mammals. All mammals are animals. Therefore, all dogs are
+2025-03-26 22:29:21,310 - __main__ - INFO - Processing prompt: The sum of the angles in a triangle is 180 degrees. If two angles in a triangle are 45 degrees and 45 degrees, then the third angle must be
+2025-03-26 22:29:21,366 - __main__ - INFO - Processing prompt: If it's raining, the ground gets wet. The ground is wet. Therefore, it
+2025-03-26 22:29:21,421 - __main__ - INFO - Processing prompt: If I add 5 to a number and then multiply by 2, I get 18. The original number must be
+2025-03-26 22:29:23,021 - __main__ - INFO - Creating latent thinking visualization for: The human heart has three chambers.
+2025-03-26 22:29:25,841 - __main__ - INFO - Report saved to ./latent_thinking_analysis/latent_thinking_report.md
+2025-03-27 03:28:05,444 - __main__ - INFO - Initializing analyzer with base model: Qwen/Qwen2.5-1.5B-Instruct
+2025-03-27 03:28:05,444 - __main__ - INFO - Verified model path: ../finetuned_model
+2025-03-27 03:28:05,444 - __main__ - INFO - Device: cuda
+2025-03-27 03:28:05,444 - __main__ - INFO - Loading tokenizer...
+2025-03-27 03:28:05,882 - __main__ - INFO - Loading base model...
+2025-03-27 03:28:11,554 - __main__ - INFO - Loading verified model...
+2025-03-27 03:28:13,666 - __main__ - INFO - Successfully loaded verified model with wrapper
+2025-03-27 03:28:13,667 - __main__ - INFO - Analyzing hidden state trajectories...
+2025-03-27 03:28:13,667 - __main__ - INFO - Processing prompt: The capital of France is Paris.
+2025-03-27 03:28:14,115 - __main__ - INFO - Processing prompt: The capital of France is Berlin.
+2025-03-27 03:28:14,181 - __main__ - INFO - Processing prompt: The Earth orbits around the Sun.
+2025-03-27 03:28:14,248 - __main__ - INFO - Processing prompt: The Sun orbits around the Earth.
+2025-03-27 03:28:14,324 - __main__ - INFO - Processing prompt: Water boils at 100 degrees Celsius at sea level.
+2025-03-27 03:28:14,398 - __main__ - INFO - Processing prompt: Water boils at 50 degrees Celsius at sea level.
+2025-03-27 03:28:17,212 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-03-27 03:28:28,685 - __main__ - INFO - Analyzing truth/falsehood divergence...
+2025-03-27 03:28:28,686 - __main__ - INFO - Processing pair 1: 'The capital of France is Paris.' vs 'The capital of France is Berlin.'
+2025-03-27 03:28:28,825 - __main__ - INFO - Processing pair 2: 'The Earth orbits around the Sun.' vs 'The Sun orbits around the Earth.'
+2025-03-27 03:28:28,960 - __main__ - INFO - Processing pair 3: 'Water boils at 100 degrees Celsius at sea level.' vs 'Water boils at 50 degrees Celsius at sea level.'
+2025-03-27 03:28:29,095 - __main__ - INFO - Processing pair 4: 'The human heart has four chambers.' vs 'The human heart has three chambers.'
+2025-03-27 03:28:29,228 - __main__ - INFO - Processing pair 5: 'Two plus two equals four.' vs 'Two plus two equals five.'
+2025-03-27 03:28:29,363 - __main__ - INFO - Processing pair 6: 'The square root of 16 is 4.' vs 'The square root of 16 is 5.'
+2025-03-27 03:28:29,497 - __main__ - INFO - Processing pair 7: 'All mammals are animals. Dogs are mammals. Therefore, dogs are animals.' vs 'All mammals are animals. Dogs are mammals. Therefore, dogs are plants.'
+2025-03-27 03:28:31,442 - __main__ - INFO - Analyzing token probability flow...
+2025-03-27 03:28:31,442 - __main__ - INFO - Processing prompt: If all A are B, and all B are C, then all A are C. All dogs are mammals. All mammals are animals. Therefore, all dogs are
+2025-03-27 03:28:31,553 - __main__ - INFO - Processing prompt: The sum of the angles in a triangle is 180 degrees. If two angles in a triangle are 45 degrees and 45 degrees, then the third angle must be
+2025-03-27 03:28:31,625 - __main__ - INFO - Processing prompt: If it's raining, the ground gets wet. The ground is wet. Therefore, it
+2025-03-27 03:28:31,698 - __main__ - INFO - Processing prompt: If I add 5 to a number and then multiply by 2, I get 18. The original number must be
+2025-03-27 03:28:33,451 - __main__ - INFO - Creating latent thinking visualization for: The human heart has three chambers.
+2025-03-27 03:28:36,776 - __main__ - INFO - Report saved to ./latent_thinking_analysis/latent_thinking_report.md
+2025-03-27 15:51:03,994 - __main__ - INFO - Initializing analyzer with base model: Qwen/Qwen2.5-7B-Instruct
+2025-03-27 15:51:03,995 - __main__ - INFO - Verified model path: ../model
+2025-03-27 15:51:03,995 - __main__ - INFO - Device: cuda
+2025-03-27 15:51:03,995 - __main__ - INFO - Loading tokenizer...
+2025-03-27 15:51:04,388 - __main__ - INFO - Loading base model...
+2025-03-27 15:51:20,560 - __main__ - INFO - Loading verified model...
+2025-03-27 15:51:34,586 - __main__ - INFO - Successfully loaded verified model with wrapper
+2025-03-27 15:51:34,587 - __main__ - INFO - Analyzing hidden state trajectories...
+2025-03-27 15:51:34,587 - __main__ - INFO - Processing prompt: The capital of France is Paris.
+2025-03-27 15:51:34,957 - __main__ - INFO - Processing prompt: The capital of France is Berlin.
+2025-03-27 15:51:35,028 - __main__ - INFO - Processing prompt: The Earth orbits around the Sun.
+2025-03-27 15:51:35,100 - __main__ - INFO - Processing prompt: The Sun orbits around the Earth.
+2025-03-27 15:51:35,170 - __main__ - INFO - Processing prompt: Water boils at 100 degrees Celsius at sea level.
+2025-03-27 15:51:35,248 - __main__ - INFO - Processing prompt: Water boils at 50 degrees Celsius at sea level.
+2025-03-27 15:51:37,984 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-03-27 15:51:49,101 - __main__ - INFO - Analyzing truth/falsehood divergence...
+2025-03-27 15:51:49,101 - __main__ - INFO - Processing pair 1: 'The capital of France is Paris.' vs 'The capital of France is Berlin.'
+2025-03-27 15:51:49,246 - __main__ - INFO - Processing pair 2: 'The Earth orbits around the Sun.' vs 'The Sun orbits around the Earth.'
+2025-03-27 15:51:49,386 - __main__ - INFO - Processing pair 3: 'Water boils at 100 degrees Celsius at sea level.' vs 'Water boils at 50 degrees Celsius at sea level.'
+2025-03-27 15:51:49,532 - __main__ - INFO - Processing pair 4: 'The human heart has four chambers.' vs 'The human heart has three chambers.'
+2025-03-27 15:51:49,724 - __main__ - INFO - Processing pair 5: 'Two plus two equals four.' vs 'Two plus two equals five.'
+2025-03-27 15:51:49,859 - __main__ - INFO - Processing pair 6: 'The square root of 16 is 4.' vs 'The square root of 16 is 5.'
+2025-03-27 15:51:50,214 - __main__ - INFO - Processing pair 7: 'All mammals are animals. Dogs are mammals. Therefore, dogs are animals.' vs 'All mammals are animals. Dogs are mammals. Therefore, dogs are plants.'
+2025-03-27 15:51:52,169 - __main__ - INFO - Analyzing token probability flow...
+2025-03-27 15:51:52,169 - __main__ - INFO - Processing prompt: If all A are B, and all B are C, then all A are C. All dogs are mammals. All mammals are animals. Therefore, all dogs are
+2025-03-27 15:51:52,286 - __main__ - INFO - Processing prompt: The sum of the angles in a triangle is 180 degrees. If two angles in a triangle are 45 degrees and 45 degrees, then the third angle must be
+2025-03-27 15:51:52,371 - __main__ - INFO - Processing prompt: If it's raining, the ground gets wet. The ground is wet. Therefore, it
+2025-03-27 15:51:52,460 - __main__ - INFO - Processing prompt: If I add 5 to a number and then multiply by 2, I get 18. The original number must be
+2025-03-27 15:51:54,180 - __main__ - INFO - Creating latent thinking visualization for: The human heart has three chambers.
+2025-03-27 15:51:57,462 - __main__ - INFO - Report saved to ./latent_thinking_analysis/latent_thinking_report.md

@@ -1,0 +1,185 @@
+2025-03-27 03:31:57,208 - __main__ - INFO - Initializing embedding dynamics analyzer for model at ../finetuned_model
+2025-03-27 03:31:57,208 - __main__ - INFO - Using device: cuda
+2025-03-27 03:31:57,208 - __main__ - INFO - High quality visualizations: True
+2025-03-27 03:31:57,209 - __main__ - INFO - Loading verified model and tokenizer...
+2025-03-27 03:32:01,321 - __main__ - INFO - Successfully loaded verified model with wrapper
+2025-03-27 03:32:01,322 - __main__ - INFO - Loading base model from Qwen/Qwen2.5-1.5B-Instruct...
+2025-03-27 03:32:04,731 - __main__ - INFO - Analyzing embedding dynamics for 10 inputs...
+2025-03-27 03:33:53,338 - __main__ - INFO - Initializing embedding dynamics analyzer for model at ../finetuned_model
+2025-03-27 03:33:53,338 - __main__ - INFO - Using device: cuda
+2025-03-27 03:33:53,338 - __main__ - INFO - High quality visualizations: True
+2025-03-27 03:33:53,338 - __main__ - INFO - Loading verified model and tokenizer...
+2025-03-27 03:33:57,222 - __main__ - INFO - Successfully loaded verified model with wrapper
+2025-03-27 03:33:57,222 - __main__ - INFO - Loading base model from Qwen/Qwen2.5-1.5B-Instruct...
+2025-03-27 03:34:01,194 - __main__ - INFO - Analyzing embedding dynamics for 10 inputs...
+2025-03-27 03:34:02,318 - __main__ - INFO - Creating embedding animations...
+2025-03-27 03:34:02,349 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-03-27 03:34:08,066 - __main__ - INFO - Saved PCA evolution animation to ./embedding_dynamics/animations/pair_1_pca_evolution.gif
+2025-03-27 03:34:08,067 - __main__ - INFO - Creating t-SNE animation for pair 1...
+2025-03-27 03:34:15,715 - __main__ - INFO - Saved t-SNE layer visualization to ./embedding_dynamics/animations/pair_1_tsne_layers.png
+2025-03-27 03:34:17,982 - __main__ - INFO - Saved key layer PCA plots to ./embedding_dynamics/animations/pair_1_key_layers.png
+2025-03-27 03:34:17,995 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-03-27 03:34:23,685 - __main__ - INFO - Saved PCA evolution animation to ./embedding_dynamics/animations/pair_2_pca_evolution.gif
+2025-03-27 03:34:23,685 - __main__ - INFO - Creating t-SNE animation for pair 2...
+2025-03-27 03:34:34,672 - __main__ - INFO - Saved t-SNE layer visualization to ./embedding_dynamics/animations/pair_2_tsne_layers.png
+2025-03-27 03:34:36,912 - __main__ - INFO - Saved key layer PCA plots to ./embedding_dynamics/animations/pair_2_key_layers.png
+2025-03-27 03:34:36,930 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-03-27 03:34:42,562 - __main__ - INFO - Saved PCA evolution animation to ./embedding_dynamics/animations/pair_3_pca_evolution.gif
+2025-03-27 03:34:42,562 - __main__ - INFO - Creating t-SNE animation for pair 3...
+2025-03-27 03:34:53,360 - __main__ - INFO - Saved t-SNE layer visualization to ./embedding_dynamics/animations/pair_3_tsne_layers.png
+2025-03-27 03:34:55,446 - __main__ - INFO - Saved key layer PCA plots to ./embedding_dynamics/animations/pair_3_key_layers.png
+2025-03-27 03:34:55,462 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-03-27 03:35:01,070 - __main__ - INFO - Saved PCA evolution animation to ./embedding_dynamics/animations/pair_4_pca_evolution.gif
+2025-03-27 03:35:01,070 - __main__ - INFO - Creating t-SNE animation for pair 4...
+2025-03-27 03:35:08,757 - __main__ - INFO - Saved t-SNE layer visualization to ./embedding_dynamics/animations/pair_4_tsne_layers.png
+2025-03-27 03:35:10,851 - __main__ - INFO - Saved key layer PCA plots to ./embedding_dynamics/animations/pair_4_key_layers.png
+2025-03-27 03:35:10,863 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-03-27 03:35:16,097 - __main__ - INFO - Saved PCA evolution animation to ./embedding_dynamics/animations/pair_5_pca_evolution.gif
+2025-03-27 03:35:16,097 - __main__ - INFO - Creating t-SNE animation for pair 5...
+2025-03-27 03:35:23,584 - __main__ - INFO - Saved t-SNE layer visualization to ./embedding_dynamics/animations/pair_5_tsne_layers.png
+2025-03-27 03:35:25,638 - __main__ - INFO - Saved key layer PCA plots to ./embedding_dynamics/animations/pair_5_key_layers.png
+2025-03-27 03:35:25,638 - __main__ - INFO - Creating aggregate embedding animation...
+2025-03-27 03:35:25,658 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-03-27 03:35:33,837 - __main__ - INFO - Saved aggregate embedding animation to ./embedding_dynamics/animations/aggregate_embedding_evolution.gif
+2025-03-27 03:35:33,837 - __main__ - INFO - Creating interactive embedding visualization...
+2025-03-27 03:35:34,586 - __main__ - INFO - Saved interactive embedding visualization to ./embedding_dynamics/animations/interactive_embedding_evolution.html
+2025-03-27 03:35:34,587 - __main__ - INFO - Creating vector field plots...
+2025-03-27 03:35:34,958 - __main__ - INFO - Saved correction vector field to ./embedding_dynamics/vector_fields/pair_1_corrections.png
+2025-03-27 03:35:35,329 - __main__ - INFO - Saved correction vector field to ./embedding_dynamics/vector_fields/pair_2_corrections.png
+2025-03-27 03:35:35,699 - __main__ - INFO - Saved correction vector field to ./embedding_dynamics/vector_fields/pair_3_corrections.png
+2025-03-27 03:35:36,103 - __main__ - INFO - Saved correction vector field to ./embedding_dynamics/vector_fields/pair_4_corrections.png
+2025-03-27 03:35:36,475 - __main__ - INFO - Saved correction vector field to ./embedding_dynamics/vector_fields/pair_5_corrections.png
+2025-03-27 03:35:36,958 - __main__ - INFO - Saved aggregate correction vector field to ./embedding_dynamics/vector_fields/aggregate_corrections.png
+2025-03-27 03:35:36,958 - __main__ - INFO - Creating interactive vector field visualization...
+2025-03-27 03:35:37,023 - __main__ - INFO - Saved interactive vector field to ./embedding_dynamics/vector_fields/interactive_vector_field.html
+2025-03-27 03:35:37,023 - __main__ - INFO - Visualizing embedding distances...
+2025-03-27 03:35:37,358 - __main__ - INFO - Saved embedding distance evolution plot to ./embedding_dynamics/contrastive/distance_evolution.png
+2025-03-27 03:35:37,978 - __main__ - INFO - Saved embedding distance heatmap to ./embedding_dynamics/contrastive/distance_heatmap.png
+2025-03-27 03:35:38,188 - __main__ - INFO - Saved adapter distance change plot to ./embedding_dynamics/contrastive/adapter_distance_change.png
+2025-03-27 03:35:38,189 - __main__ - INFO - Analyzing attention patterns for 4 inputs...
+2025-03-27 03:35:39,346 - __main__ - INFO - Saved aggregate attention comparison to ./embedding_dynamics/attention/aggregate_attention_comparison.png
+2025-03-27 03:35:39,346 - __main__ - INFO - Analyzing contrastive representation for 10 inputs...
+2025-03-27 03:37:50,185 - __main__ - INFO - Initializing embedding dynamics analyzer for model at ../finetuned_model
+2025-03-27 03:37:50,185 - __main__ - INFO - Using device: cuda
+2025-03-27 03:37:50,185 - __main__ - INFO - High quality visualizations: True
+2025-03-27 03:37:50,185 - __main__ - INFO - Loading verified model and tokenizer...
+2025-03-27 03:37:53,919 - __main__ - INFO - Successfully loaded verified model with wrapper
+2025-03-27 03:37:53,920 - __main__ - INFO - Loading base model from Qwen/Qwen2.5-1.5B-Instruct...
+2025-03-27 03:37:57,201 - __main__ - INFO - Analyzing embedding dynamics for 10 inputs...
+2025-03-27 03:37:58,234 - __main__ - INFO - Creating embedding animations...
+2025-03-27 03:37:58,255 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-03-27 03:38:03,989 - __main__ - INFO - Saved PCA evolution animation to ./embedding_dynamics/animations/pair_1_pca_evolution.gif
+2025-03-27 03:38:03,990 - __main__ - INFO - Creating t-SNE animation for pair 1...
+2025-03-27 03:38:11,090 - __main__ - INFO - Saved t-SNE layer visualization to ./embedding_dynamics/animations/pair_1_tsne_layers.png
+2025-03-27 03:38:13,169 - __main__ - INFO - Saved key layer PCA plots to ./embedding_dynamics/animations/pair_1_key_layers.png
+2025-03-27 03:38:13,182 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-03-27 03:38:18,536 - __main__ - INFO - Saved PCA evolution animation to ./embedding_dynamics/animations/pair_2_pca_evolution.gif
+2025-03-27 03:38:18,536 - __main__ - INFO - Creating t-SNE animation for pair 2...
+2025-03-27 03:38:29,255 - __main__ - INFO - Saved t-SNE layer visualization to ./embedding_dynamics/animations/pair_2_tsne_layers.png
+2025-03-27 03:38:31,392 - __main__ - INFO - Saved key layer PCA plots to ./embedding_dynamics/animations/pair_2_key_layers.png
+2025-03-27 03:38:31,406 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-03-27 03:38:36,845 - __main__ - INFO - Saved PCA evolution animation to ./embedding_dynamics/animations/pair_3_pca_evolution.gif
+2025-03-27 03:38:36,846 - __main__ - INFO - Creating t-SNE animation for pair 3...
+2025-03-27 03:38:47,730 - __main__ - INFO - Saved t-SNE layer visualization to ./embedding_dynamics/animations/pair_3_tsne_layers.png
+2025-03-27 03:38:49,823 - __main__ - INFO - Saved key layer PCA plots to ./embedding_dynamics/animations/pair_3_key_layers.png
+2025-03-27 03:38:49,837 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-03-27 03:38:55,608 - __main__ - INFO - Saved PCA evolution animation to ./embedding_dynamics/animations/pair_4_pca_evolution.gif
+2025-03-27 03:38:55,608 - __main__ - INFO - Creating t-SNE animation for pair 4...
+2025-03-27 03:39:02,613 - __main__ - INFO - Saved t-SNE layer visualization to ./embedding_dynamics/animations/pair_4_tsne_layers.png
+2025-03-27 03:39:04,823 - __main__ - INFO - Saved key layer PCA plots to ./embedding_dynamics/animations/pair_4_key_layers.png
+2025-03-27 03:39:04,835 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-03-27 03:39:10,459 - __main__ - INFO - Saved PCA evolution animation to ./embedding_dynamics/animations/pair_5_pca_evolution.gif
+2025-03-27 03:39:10,459 - __main__ - INFO - Creating t-SNE animation for pair 5...
+2025-03-27 03:39:17,493 - __main__ - INFO - Saved t-SNE layer visualization to ./embedding_dynamics/animations/pair_5_tsne_layers.png
+2025-03-27 03:39:19,713 - __main__ - INFO - Saved key layer PCA plots to ./embedding_dynamics/animations/pair_5_key_layers.png
+2025-03-27 03:39:19,713 - __main__ - INFO - Creating aggregate embedding animation...
+2025-03-27 03:39:19,742 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-03-27 03:39:28,588 - __main__ - INFO - Saved aggregate embedding animation to ./embedding_dynamics/animations/aggregate_embedding_evolution.gif
+2025-03-27 03:39:28,588 - __main__ - INFO - Creating interactive embedding visualization...
+2025-03-27 03:39:29,369 - __main__ - INFO - Saved interactive embedding visualization to ./embedding_dynamics/animations/interactive_embedding_evolution.html
+2025-03-27 03:39:29,370 - __main__ - INFO - Creating vector field plots...
+2025-03-27 03:39:29,810 - __main__ - INFO - Saved correction vector field to ./embedding_dynamics/vector_fields/pair_1_corrections.png
+2025-03-27 03:39:30,254 - __main__ - INFO - Saved correction vector field to ./embedding_dynamics/vector_fields/pair_2_corrections.png
+2025-03-27 03:39:30,716 - __main__ - INFO - Saved correction vector field to ./embedding_dynamics/vector_fields/pair_3_corrections.png
+2025-03-27 03:39:31,147 - __main__ - INFO - Saved correction vector field to ./embedding_dynamics/vector_fields/pair_4_corrections.png
+2025-03-27 03:39:31,580 - __main__ - INFO - Saved correction vector field to ./embedding_dynamics/vector_fields/pair_5_corrections.png
+2025-03-27 03:39:32,083 - __main__ - INFO - Saved aggregate correction vector field to ./embedding_dynamics/vector_fields/aggregate_corrections.png
+2025-03-27 03:39:32,083 - __main__ - INFO - Creating interactive vector field visualization...
+2025-03-27 03:39:32,129 - __main__ - INFO - Saved interactive vector field to ./embedding_dynamics/vector_fields/interactive_vector_field.html
+2025-03-27 03:39:32,129 - __main__ - INFO - Visualizing embedding distances...
+2025-03-27 03:39:32,462 - __main__ - INFO - Saved embedding distance evolution plot to ./embedding_dynamics/contrastive/distance_evolution.png
+2025-03-27 03:39:33,119 - __main__ - INFO - Saved embedding distance heatmap to ./embedding_dynamics/contrastive/distance_heatmap.png
+2025-03-27 03:39:33,338 - __main__ - INFO - Saved adapter distance change plot to ./embedding_dynamics/contrastive/adapter_distance_change.png
+2025-03-27 03:39:33,339 - __main__ - INFO - Analyzing attention patterns for 4 inputs...
+2025-03-27 03:39:34,529 - __main__ - INFO - Saved aggregate attention comparison to ./embedding_dynamics/attention/aggregate_attention_comparison.png
+2025-03-27 03:39:34,529 - __main__ - INFO - Analyzing contrastive representation for 10 inputs...
+2025-03-27 03:39:34,797 - __main__ - INFO - Saved contrastive similarity plot to ./embedding_dynamics/contrastive/similarity_1.png
+2025-03-27 03:39:35,050 - __main__ - INFO - Saved contrastive similarity plot to ./embedding_dynamics/contrastive/similarity_2.png
+2025-03-27 03:39:35,317 - __main__ - INFO - Saved contrastive similarity plot to ./embedding_dynamics/contrastive/similarity_3.png
+2025-03-27 03:39:35,579 - __main__ - INFO - Saved contrastive similarity plot to ./embedding_dynamics/contrastive/similarity_4.png
+2025-03-27 03:39:35,852 - __main__ - INFO - Saved contrastive similarity plot to ./embedding_dynamics/contrastive/similarity_5.png
+2025-03-27 03:39:36,167 - __main__ - INFO - Saved aggregate contrastive similarity plot to ./embedding_dynamics/contrastive/aggregate_similarity.png
+2025-03-27 03:39:36,508 - __main__ - INFO - Saved similarity difference plot to ./embedding_dynamics/contrastive/similarity_difference.png
+2025-03-27 03:39:36,508 - __main__ - INFO - Report saved to ./embedding_dynamics/embedding_dynamics_report.md
+2025-03-27 15:55:22,521 - __main__ - INFO - Initializing embedding dynamics analyzer for model at ../model
+2025-03-27 15:55:22,521 - __main__ - INFO - Using device: cuda
+2025-03-27 15:55:22,521 - __main__ - INFO - High quality visualizations: True
+2025-03-27 15:55:22,521 - __main__ - INFO - Loading verified model and tokenizer...
+2025-03-27 15:55:38,074 - __main__ - INFO - Successfully loaded verified model with wrapper
+2025-03-27 15:55:38,075 - __main__ - INFO - Loading base model from Qwen/Qwen2.5-7B-Instruct...
+2025-03-27 15:55:51,890 - __main__ - INFO - Analyzing embedding dynamics for 10 inputs...
+2025-03-27 15:55:52,959 - __main__ - INFO - Creating embedding animations...
+2025-03-27 15:55:52,983 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-03-27 15:55:58,321 - __main__ - INFO - Saved PCA evolution animation to ./embedding_dynamics/animations/pair_1_pca_evolution.gif
+2025-03-27 15:55:58,322 - __main__ - INFO - Creating t-SNE animation for pair 1...
+2025-03-27 15:56:14,763 - __main__ - INFO - Saved t-SNE layer visualization to ./embedding_dynamics/animations/pair_1_tsne_layers.png
+2025-03-27 15:56:16,863 - __main__ - INFO - Saved key layer PCA plots to ./embedding_dynamics/animations/pair_1_key_layers.png
+2025-03-27 15:56:16,921 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-03-27 15:56:22,287 - __main__ - INFO - Saved PCA evolution animation to ./embedding_dynamics/animations/pair_2_pca_evolution.gif
+2025-03-27 15:56:22,288 - __main__ - INFO - Creating t-SNE animation for pair 2...
+2025-03-27 15:56:40,335 - __main__ - INFO - Saved t-SNE layer visualization to ./embedding_dynamics/animations/pair_2_tsne_layers.png
+2025-03-27 15:56:42,548 - __main__ - INFO - Saved key layer PCA plots to ./embedding_dynamics/animations/pair_2_key_layers.png
+2025-03-27 15:56:42,619 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-03-27 15:56:47,993 - __main__ - INFO - Saved PCA evolution animation to ./embedding_dynamics/animations/pair_3_pca_evolution.gif
+2025-03-27 15:56:47,993 - __main__ - INFO - Creating t-SNE animation for pair 3...
+2025-03-27 15:57:05,018 - __main__ - INFO - Saved t-SNE layer visualization to ./embedding_dynamics/animations/pair_3_tsne_layers.png
+2025-03-27 15:57:07,217 - __main__ - INFO - Saved key layer PCA plots to ./embedding_dynamics/animations/pair_3_key_layers.png
+2025-03-27 15:57:07,231 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-03-27 15:57:12,572 - __main__ - INFO - Saved PCA evolution animation to ./embedding_dynamics/animations/pair_4_pca_evolution.gif
+2025-03-27 15:57:12,572 - __main__ - INFO - Creating t-SNE animation for pair 4...
+2025-03-27 15:57:30,020 - __main__ - INFO - Saved t-SNE layer visualization to ./embedding_dynamics/animations/pair_4_tsne_layers.png
+2025-03-27 15:57:32,104 - __main__ - INFO - Saved key layer PCA plots to ./embedding_dynamics/animations/pair_4_key_layers.png
+2025-03-27 15:57:32,118 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-03-27 15:57:37,333 - __main__ - INFO - Saved PCA evolution animation to ./embedding_dynamics/animations/pair_5_pca_evolution.gif
+2025-03-27 15:57:37,333 - __main__ - INFO - Creating t-SNE animation for pair 5...
+2025-03-27 15:57:54,787 - __main__ - INFO - Saved t-SNE layer visualization to ./embedding_dynamics/animations/pair_5_tsne_layers.png
+2025-03-27 15:57:56,830 - __main__ - INFO - Saved key layer PCA plots to ./embedding_dynamics/animations/pair_5_key_layers.png
+2025-03-27 15:57:56,830 - __main__ - INFO - Creating aggregate embedding animation...
+2025-03-27 15:57:56,929 - matplotlib.animation - INFO - Animation.save using <class 'matplotlib.animation.PillowWriter'>
+2025-03-27 15:58:05,139 - __main__ - INFO - Saved aggregate embedding animation to ./embedding_dynamics/animations/aggregate_embedding_evolution.gif
+2025-03-27 15:58:05,140 - __main__ - INFO - Creating interactive embedding visualization...
+2025-03-27 15:58:06,279 - __main__ - INFO - Saved interactive embedding visualization to ./embedding_dynamics/animations/interactive_embedding_evolution.html
+2025-03-27 15:58:06,307 - __main__ - INFO - Creating vector field plots...
+2025-03-27 15:58:06,735 - __main__ - INFO - Saved correction vector field to ./embedding_dynamics/vector_fields/pair_1_corrections.png
+2025-03-27 15:58:07,153 - __main__ - INFO - Saved correction vector field to ./embedding_dynamics/vector_fields/pair_2_corrections.png
+2025-03-27 15:58:07,570 - __main__ - INFO - Saved correction vector field to ./embedding_dynamics/vector_fields/pair_3_corrections.png
+2025-03-27 15:58:07,985 - __main__ - INFO - Saved correction vector field to ./embedding_dynamics/vector_fields/pair_4_corrections.png
+2025-03-27 15:58:08,402 - __main__ - INFO - Saved correction vector field to ./embedding_dynamics/vector_fields/pair_5_corrections.png
+2025-03-27 15:58:08,904 - __main__ - INFO - Saved aggregate correction vector field to ./embedding_dynamics/vector_fields/aggregate_corrections.png
+2025-03-27 15:58:08,904 - __main__ - INFO - Creating interactive vector field visualization...
+2025-03-27 15:58:08,953 - __main__ - INFO - Saved interactive vector field to ./embedding_dynamics/vector_fields/interactive_vector_field.html
+2025-03-27 15:58:08,953 - __main__ - INFO - Visualizing embedding distances...
+2025-03-27 15:58:09,358 - __main__ - INFO - Saved embedding distance evolution plot to ./embedding_dynamics/contrastive/distance_evolution.png
+2025-03-27 15:58:09,987 - __main__ - INFO - Saved embedding distance heatmap to ./embedding_dynamics/contrastive/distance_heatmap.png
+2025-03-27 15:58:10,179 - __main__ - INFO - Saved adapter distance change plot to ./embedding_dynamics/contrastive/adapter_distance_change.png
+2025-03-27 15:58:10,179 - __main__ - INFO - Analyzing attention patterns for 4 inputs...
+2025-03-27 15:58:11,033 - __main__ - INFO - Saved aggregate attention comparison to ./embedding_dynamics/attention/aggregate_attention_comparison.png
+2025-03-27 15:58:11,033 - __main__ - INFO - Analyzing contrastive representation for 10 inputs...
+2025-03-27 15:58:11,567 - __main__ - INFO - Saved contrastive similarity plot to ./embedding_dynamics/contrastive/similarity_1.png
+2025-03-27 15:58:11,861 - __main__ - INFO - Saved contrastive similarity plot to ./embedding_dynamics/contrastive/similarity_2.png
+2025-03-27 15:58:12,246 - __main__ - INFO - Saved contrastive similarity plot to ./embedding_dynamics/contrastive/similarity_3.png
+2025-03-27 15:58:12,492 - __main__ - INFO - Saved contrastive similarity plot to ./embedding_dynamics/contrastive/similarity_4.png
+2025-03-27 15:58:12,757 - __main__ - INFO - Saved contrastive similarity plot to ./embedding_dynamics/contrastive/similarity_5.png
+2025-03-27 15:58:13,172 - __main__ - INFO - Saved aggregate contrastive similarity plot to ./embedding_dynamics/contrastive/aggregate_similarity.png
+2025-03-27 15:58:13,492 - __main__ - INFO - Saved similarity difference plot to ./embedding_dynamics/contrastive/similarity_difference.png
+2025-03-27 15:58:13,493 - __main__ - INFO - Report saved to ./embedding_dynamics/embedding_dynamics_report.md
