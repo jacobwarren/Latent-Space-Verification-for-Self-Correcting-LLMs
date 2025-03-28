@@ -17,7 +17,7 @@ The analyzer creates:
 These visualizations provide compelling evidence for the research paper.
 """
 
-import os
+import os, sys
 import json
 import numpy as np
 import pandas as pd
@@ -117,7 +117,10 @@ class EmbeddingDynamicsAnalyzer:
         # Load verified model
         try:
             # First try loading with verification wrapper
-            from enhanced_verification import load_bayesian_verification_model
+            parent_dir = os.path.join(os.path.dirname(__file__), '..')
+            sys.path.append(parent_dir)
+
+            from latent_verification.enhanced_verification import load_bayesian_verification_model
             self.verified_model = load_bayesian_verification_model(self.verified_model_path).to(self.device)
             logger.info("Successfully loaded verified model with wrapper")
         except Exception as e:

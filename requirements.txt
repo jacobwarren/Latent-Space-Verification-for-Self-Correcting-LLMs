@@ -1,0 +1,17 @@
+torch>=2.5.1
+transformers>=4.49.0
+sentencepiece>=0.2.0
+numpy>=2.0.2
+peft>=0.14.0
+safetensors>=0.5.3
+tqdm>=4.67.1
+requests>=2.32.3
+pandas>=2.2.3
+matplotlib>=3.10.0
+seaborn>=0.13.2
+scikit-learn>=1.6.1
+scipy>=1.15.0
+plotly>=5.24.1
+datasets>=3.3.0
+trl>=0.15.2
+

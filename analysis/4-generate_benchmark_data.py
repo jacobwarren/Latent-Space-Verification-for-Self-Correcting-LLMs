@@ -319,7 +319,7 @@ class VerificationBenchmarkGenerator:
             sample = random.choice(sample_problems)
             modified_sample = dict(sample)
 
-            # This is a simple modification approach - in reality, you'd want a more sophisticated method
+            # This is a simple modification approach
             modified_sample["question"] = sample["question"].replace("5", str(random.randint(3, 9)))
 
             benchmark = self._process_gsm8k_example(modified_sample)

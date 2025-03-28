@@ -14,7 +14,7 @@ Key features:
 5. Statistical significance testing of confidence differences
 """
 
-import os
+import os, sys
 import json
 import numpy as np
 import pandas as pd
@@ -112,7 +112,10 @@ class ConfidenceAnalyzer:
         # Load verified model
         try:
             # First try loading with verification wrapper
-            from enhanced_verification import load_bayesian_verification_model
+            parent_dir = os.path.join(os.path.dirname(__file__), '..')
+            sys.path.append(parent_dir)
+
+            from latent_verification.enhanced_verification import load_bayesian_verification_model
             self.verified_model = load_bayesian_verification_model(self.verified_model_path).to(self.device)
             logger.info("Successfully loaded verified model with wrapper")
         except Exception as e:
@@ -521,7 +524,7 @@ class ConfidenceAnalyzer:
             plt.text(-0.01, i, f"{i+1}. T: {truth_text} | F: {falsehood_text}", ha='right', va='center', fontsize=8)
 
         plt.axvline(x=0, color='black', linestyle='--', alpha=0.7)
-        plt.xlim(-0.6, 0.6)  # Adjust as needed based on your data
+        plt.xlim(-0.6, 0.6)
         plt.xlabel("Confidence Difference (True - False)")
         plt.title("Statements with Highest and Lowest Confidence Differences")
         plt.yticks([])  # Hide y-ticks since we have custom labels

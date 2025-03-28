@@ -16,7 +16,7 @@ This is the most specialized tool for the direct measurement and visualization
 of the latent verification mechanism's impact on the model's internal representations.
 """
 
-import os
+import os, sys
 import torch
 import numpy as np
 import matplotlib.pyplot as plt
@@ -108,7 +108,10 @@ class LatentThinkingAnalyzer:
 
         try:
             # First try loading with verification wrapper
-            from enhanced_verification import load_bayesian_verification_model
+            parent_dir = os.path.join(os.path.dirname(__file__), '..')
+            sys.path.append(parent_dir)
+
+            from latent_verification.enhanced_verification import load_bayesian_verification_model
             self.verified_model = load_bayesian_verification_model(self.verified_model_path).to(self.device)
             logger.info("Successfully loaded verified model with wrapper")
         except Exception as e:

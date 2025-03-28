@@ -771,9 +771,10 @@ def run_verification_analysis(base_model_name, verified_model_path, output_dir="
     from transformers import AutoModelForCausalLM, AutoTokenizer
 
     # Load custom models
-    import sys
-    sys.path.append("/workspace/suite")
-    from enhanced_verification import load_bayesian_verification_model
+    parent_dir = os.path.join(os.path.dirname(__file__), '..')
+    sys.path.append(parent_dir)
+
+    from latent_verification.enhanced_verification import load_bayesian_verification_model
 
     # Load tokenizer
     tokenizer = AutoTokenizer.from_pretrained(base_model_name)

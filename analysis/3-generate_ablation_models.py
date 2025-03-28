@@ -10,7 +10,7 @@ This script creates the following ablation variants:
 4. Shallow vs deep verification (early vs late layers only)
 """
 
-import os
+import os, sys
 import torch
 import argparse
 import json
@@ -290,7 +290,10 @@ def generate_ablation_models(verified_model_path, output_dir, tokenizer_path=Non
 
     try:
         # Try to load with verification wrapper
-        from enhanced_verification import load_bayesian_verification_model
+        parent_dir = os.path.join(os.path.dirname(__file__), '..')
+        sys.path.append(parent_dir)
+
+        from latent_verification.enhanced_verification import load_bayesian_verification_model
         model = load_bayesian_verification_model(verified_model_path)
         logger.info("Loaded model with verification wrapper")
     except Exception as e:

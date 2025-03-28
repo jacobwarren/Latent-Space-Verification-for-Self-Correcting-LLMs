@@ -14,7 +14,7 @@ mechanism rather than just from additional parameters.
 import torch
 import torch.nn as nn
 from transformers import AutoModelForCausalLM, AutoTokenizer
-import os
+import os, sys
 import argparse
 from peft import LoraConfig, get_peft_model
 
@@ -361,7 +361,11 @@ def create_parameter_matched_baselines(
     """
     # Load verification model to get adapter locations and parameter count
     try:
-        from enhanced_verification import load_bayesian_verification_model
+        # First, try loading with the LatentVerificationWrapper
+        parent_dir = os.path.join(os.path.dirname(__file__), '..')
+        sys.path.append(parent_dir)
+
+        from latent_verification.enhanced_verification import load_bayesian_verification_model
         verification_model = load_bayesian_verification_model(verification_model_path)
         adapter_locations = verification_model.adapter_locations
 
